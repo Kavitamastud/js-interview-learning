@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Hoisting - Detailed Explanation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .info-box {
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .error-box {
+            background-color: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        pre {
+            background-color: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 JavaScript Hoisting - Complete Guide</h1>
+    
+    <div class="info-box">
+        <strong>What is Hoisting?</strong><br>
+        Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their scope (global or function scope) during the compilation phase, BEFORE the code is executed.
+        <br><br>
+        <strong>Important:</strong> Only DECLARATIONS are hoisted, NOT INITIALIZATIONS!
+    </div>
+
+    <h2>📋 Check the Console (F12) to see all examples in action!</h2>
+    
+    <div class="warning-box">
+        <strong>Note:</strong> Some examples in the console may show errors intentionally to demonstrate the Temporal Dead Zone (TDZ) concept with let/const.
+    </div>
+
+    <h2>Key Concepts Covered:</h2>
+    <ul>
+        <li>✅ var hoisting (initialized with undefined)</li>
+        <li>✅ let and const hoisting (Temporal Dead Zone)</li>
+        <li>✅ Function declaration hoisting (fully hoisted)</li>
+        <li>✅ Function expression hoisting</li>
+        <li>✅ Arrow function hoisting</li>
+        <li>✅ Class hoisting</li>
+        <li>✅ Hoisting in function scope</li>
+        <li>✅ Hoisting order of precedence</li>
+        <li>✅ Common gotchas and practical examples</li>
+    </ul>
+
+    <script src="hoisting-details.js"></script>
+</body>
+</html>
+
+
+
+
+
